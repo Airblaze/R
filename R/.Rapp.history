@@ -1,0 +1,1075 @@
+library()
+library(Rcmdr)
+library(dll)
+library(DLLpath)
+library
+library()
+library(rJava)
+.jinit()
+s <- .jnew("java/lang/String", "Hello World!")
+print (s)
+system.file("jri",package="rJava")
+./configure
+x<-1
+print(x)
+x
+y<-c(1.7,"a")
+y
+y<-c(T,2)
+y
+y<-c("a",T)
+y
+x<-list(1,"a",t,2-9i)
+x
+x<-list(1,"a",T,2-9i)
+x
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		filecontent<-read.csv(files_path,header=TRUE)#
+		print(filecontent$sulfate)#
+		print(filecontent$nitrate)#
+		#correlation<-c(correlation,cor(filecontent$sulfate,filecontent$nitrate))#
+	}#
+	correlation#
+}
+corr('~/Downloads/specdata')
+getwd()
+setwd('/Users/srikanth.mannepalle/Downloads/specdata')
+corr('~/Downloads/specdata')
+setwd('/Users/srikanth.mannepalle/Desktop/R')
+corr('~/Downloads/specdata')
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		filecontent<-read.csv(files_path,header=TRUE)#
+		print(filecontent$sulfate)#
+		print(filecontent$nitrate)#
+		#correlation<-c(correlation,cor(filecontent$sulfate,filecontent$nitrate))#
+	}#
+	correlation#
+}
+corr('~/Downloads/specdata')
+corr('/Users/srikanth.mannepalle/Downloads/specdata')
+ls
+complete('/Users/srikanth.mannepalle/Downloads/specdata')
+source compete.R
+source complete.R
+source complete
+getwd()
+source complete.R
+source("complete.R")
+corr('/Users/srikanth.mannepalle/Downloads/specdata')
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		filecontent<-read.csv(files_path,header=TRUE)#
+		#print(filecontent$sulfate)#
+		#print(filecontent$nitrate)#
+		correlation<-c(correlation,cor(filecontent$sulfate,filecontent$nitrate,na.rm=T))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		filecontent<-read.csv(files_path,header=TRUE)#
+		f1<-c(filecontent$sulfate,na.rm=T)#
+		f2<-c(filecontent$nitrate,na.rm=T)#
+		#print(filecontent$nitrate)#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		filecontent<-read.csv(files_path,header=TRUE)#
+		f1<-c(filecontent$sulfate,na.rm=T)#
+		f2<-c(filecontent$nitrate,na.rm=T)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+head(f1)
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		f1<-read.csv(files_path,header=TRUE,colClasses=c("NULL", NA,"NULL","NULL"))#
+		f1<-read.csv(files_path,header=TRUE,colClasses=c("NULL", "NULL",NA,"NULL"))#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+           files_path=paste0(directory,fid,sep=".csv")#
+		f1<-read.csv(files_path,header=TRUE,colClasses=c("NULL", NA,"NULL","NULL"))#
+		f2<-read.csv(files_path,header=TRUE,colClasses=c("NULL", "NULL",NA,"NULL"))#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path,header=TRUE)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path,header=TRUE)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=sapply(read.csv(files_path,header=TRUE),na.rm=T)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=sapply(paste0(directory,fid,sep=".csv"),read.csv,header=TRUE,na.rm=T)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path ,header=TRUE)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2,na.rm=T))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path ,header=TRUE)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2,na.rm=T))#
+	}#
+	correlation#
+}}}}}
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path ,header=TRUE)#
+		f1<-filecontent[,2]#
+		f2<-filecontent[,3]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path ,header=TRUE)#
+		f1<-filecontent[[,]][[2]]#
+		f2<-filecontent[[,]][[3]]#
+		print(f1)#
+		print(f2)#
+		print(cor(f1,f2))#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+f1=read.csv(/Users/srikanth.mannepalle/Downloads/specdata/001.csv')
+f1=read.csv(''/Users/srikanth.mannepalle/Downloads/specdata/001.csv')
+f1=read.csv('/Users/srikanth.mannepalle/Downloads/specdata/001.csv')
+head(f1)
+f1$Date
+head(f1)
+head(sulfate,na.rm=T)
+head(f1$sulfate)
+head(f1$sulfate,na.rm=T)
+x<-(f1$sulfate,na.rm=T)
+x<-(f1,na.rm=T)
+x<-c(f1,na.rm=T)
+x
+f1=read.csv('/Users/srikanth.mannepalle/Downloads/specdata/001.csv',na.rm=T)
+f1=read.csv('/Users/srikanth.mannepalle/Downloads/specdata/001.csv')
+x<-f1$sulfate
+x
+na.rm(x)
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+	filedata=data.frame()#
+	filedata<-rbind(filedata,complete(directory))#
+	idlist<-c(NULL)#
+	correlation<-c(NULL)#
+	for (row in 1:nrow(filedata))#
+	{#
+		if (filedata[row,2] > threshold)#
+		   idlist<-c(idlist,filedata[row,1])#
+	}#
+	#idlist#
+	for(id in idlist)#
+	{#
+		fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+		filecontent=read.csv(files_path ,header=TRUE)#
+        f1<-v(NULL)#
+        f2<-v(NULL)#
+	    for (cols in 1:nrow(filecontent))#
+	   {#
+	        	flag<-T#
+	        	for (row in 2:3)#
+	          		{#
+	          	         if(is.na(filecontent[[row]][[cols]]))#
+	        			   flag<-F#
+	        	      }#
+	        	 if(flag==T)#
+	             {#
+	             	f1<-c(f1,filecontent[[row]][[cols]]))	#
+	                f2<-c(f2,filecontent[[row]][[cols]]))#
+	             }#
+	    }#
+    }#
+		correlation<-c(correlation,cor(f1,f2))#
+	}#
+	correlation#
+}
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+        f1<-v(NULL)#
+        f2<-v(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	      }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[row]][[cols]]))	#
+                f2<-c(f2,filecontent[[row]][[cols]]))#
+             }#
+    }#
+     correlation<-c(correlation,cor(f1,f2)) #
+    }#
+   	   correlation#
+}
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-v(NULL)#
+    f2<-v(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[row]][[cols]]))	#
+                f2<-c(f2,filecontent[[row]][[cols]]))#
+             }#
+    }#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+        files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-v(NULL)#
+    f2<-v(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[row]][[cols]])	#
+                f2<-c(f2,filecontent[[row]][[cols]])#
+             }#
+    }#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[row]][[cols]])	#
+                f2<-c(f2,filecontent[[row]][[cols]])#
+             }#
+    }#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[row]][[cols]])	#
+                f2<-c(f2,filecontent[[row]][[cols]])#
+             }#
+    }#
+     print(f1)#
+     print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     print(f1)#
+     print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     print(f1)#
+     print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+len(correlation)
+correlatiobn
+correlation
+correlation
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     print(f1)#
+     print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+len(correlation)
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     #print(f1)#
+     #print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+source("complete.R")#
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     #print(f1)#
+     #print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+	 summary(correlation)#
+}
+corr('/Users/srikanth.mannepalle/Downloads/specdata/')
+corr('/Users/srikanth.mannepalle/Downloads/specdata/',150)
+source("complete.R")
+corr <- function(directory, threshold = 400) #
+{#
+filedata=data.frame()#
+filedata<-rbind(filedata,complete(directory))#
+idlist<-c(NULL)#
+correlation<-c(NULL)#
+for (row in 1:nrow(filedata))#
+{#
+	if (filedata[row,2] > threshold)#
+	   idlist<-c(idlist,filedata[row,1])#
+}#
+#idlist#
+for(id in idlist)#
+{#
+	fid=sprintf("%03d",id)#
+    files_path=paste0(directory,fid,sep=".csv")#
+	filecontent=read.csv(files_path ,header=TRUE)#
+    f1<-c(NULL)#
+    f2<-c(NULL)#
+    for (cols in 1:nrow(filecontent))#
+   {#
+        	flag<-T#
+        	for (row in 2:3)#
+          		{#
+          	         if(is.na(filecontent[[row]][[cols]]))#
+        			   flag<-F#
+        	     }#
+        	 if(flag==T)#
+             {#
+             	f1<-c(f1,filecontent[[2]][[cols]])	#
+                f2<-c(f2,filecontent[[3]][[cols]])#
+             }#
+    }#
+     #print(f1)#
+     #print(f2)#
+     correlation<-c(correlation,cor(f1,f2)) #
+}#
+	 correlation#
+	 #summary(correlation)#
+}
+cr<-corr('/Users/srikanth.mannepalle/Downloads/specdata/',150)
+head(cr)
+summary(head)
+summary(cr)
+gwtwd()
+getwd()
+source("submitscript1.R")
+submit()
+4
+submit()
+source("pollutantmean.R")
+source("pollutantmean.R")
+getwd()
+source("complete.R")
+pollutantmean<-function(directory,pollutant,id=1:2){#
+fid=sprintf("%03d",id)#
+files_full=paste0(directory,fid,sep=".csv")#
+tmp <- vector(mode = "list", length = length(id))#
+for (i in seq_along (files_full)) {#
+        tmp[[i]] <- read.csv(files_full[[i]],header=TRUE)#
+    }#
+output <- do.call(rbind, tmp)#
+#str(output)#
+mean(output$pollutant,na.rm=T)
+}
+submit()
+submit()
+submit()
+submit()
+submit()
+pollutantmean('specdata','sulfate')
+pollutantmean<-function(directory,pollutant,id=1:2){#
+fid=sprintf("%03d",id)#
+files_full=paste0(directory,"/",fid,sep=".csv")#
+tmp <- vector(mode = "list", length = length(id))#
+for (i in seq_along (files_full)) {#
+        tmp[[i]] <- read.csv(files_full[[i]],header=TRUE)#
+    }#
+output <- do.call(rbind, tmp)#
+#str(output)#
+mean(output$sulfate,na.rm=T)#
+}
+pollutantmean('specdata','sulfate')
+pollutantmean('specdata',sulfate)
+pollutantmean('specdata',sulfate,1:332)
+pollutantmean<-function(directory,pollutant,id=1:2){#
+fid=sprintf("%03d",id)#
+files_full=paste0(directory,"/",fid,sep=".csv")#
+tmp <- vector(mode = "list", length = length(id))#
+for (i in seq_along (files_full)) {#
+        tmp[[i]] <- read.csv(files_full[[i]],header=TRUE)#
+    }#
+output <- do.call(rbind, tmp)#
+#str(output)#
+mean(output$pollutant,na.rm=T)#
+}
+pollutantmean('specdata',sulfate,1:332)
+submit()
+source("pollutantmean.csv")
+source("pollutantmean.R")
+submit()
+source("pollutantmean.R")
+submit()
+pollutantmean<-function(directory,pollutant,id=1:2){#
+fid=sprintf("%03d",id)#
+files_full=paste0(directory,"/",fid,sep=".csv")#
+tmp <- vector(mode = "list", length = length(id))#
+for (i in seq_along (files_full)) {#
+        tmp[[i]] <- read.csv(files_full[[i]],header=TRUE)#
+    }#
+output <- do.call(rbind, tmp)#
+#str(output)#
+mean(output[[pollutant]],na.rm=T)
+}
+pollutantmean('specdata',sulfate,1:332)
+pollutantmean('specdata',"sulfate",1:332)
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+pollutantmean<-function(directory,pollutant,id=1:2){#
+fid=sprintf("%03d",id)#
+files_full=paste0(directory,"/",fid,sep=".csv")#
+tmp <- vector(mode = "list", length = length(id))#
+for (i in seq_along (files_full)) {#
+        tmp[[i]] <- read.csv(files_full[[i]],header=TRUE)#
+    }#
+output <- do.call(rbind, tmp)#
+#str(output)#
+mean(output[[pollutant]],na.rm=T)#
+}
+pollutantmean('specdata','nitrate',1:2)
+pollutantmean('specdata','nitrate',1:10)
+pollutantmean('specdata','sulfate',1:10)
+pollutantmean('specdata','nitrate',70:72)
+pollutantmean('specdata','nitrate',23)
+submit()
+4
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+source("corr.R")
+submit()
+x<-corr('specdata',400)
+summary(x)
+y<-9.678954321
+round(y,digits=4)
+submit()
+source("pollutant.R")
+source("pollutantmean.R")
+submit()
+submit()
+source("pollutantmean.R")
+submit()
+source("pollutantmean.R")
+submit()
+source("pollutantmean.R")
+submit()
+source("pollutantmean.R")
+submit()
